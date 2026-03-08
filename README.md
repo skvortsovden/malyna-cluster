@@ -9,4 +9,4 @@ This is my home lab cluster build with 3 rapberry pi 4B.
 - 1x usb hub anker with 6 usb ports
 
 # software
-- Raspberry Pi OS (64-bit) Trixie
+- Raspberry Pi OS (64-bit) a port of Debian Trixie with the Raspberry Pi Desktop
