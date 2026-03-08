@@ -25,7 +25,7 @@ This is a logbook of my home lab cluster setup.
 
 ## logbook records
 
-## 2026-03-08
+### 2026-03-08
 
 - ssh key-based authentication configured on all nodes
 - ssh password authentication disabled on all nodes
