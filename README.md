@@ -1,1 +1,12 @@
 # malyna-cluster
+
+This is my home lab cluster build with 3 rapberry pi 4B.
+
+# hardware
+
+- 3x Raspberry Pi 4B (2x 4GB RAM, 1x 8GB RAM)
+- 3x 32GB microSD card
+- 1x usb hub anker with 6 usb ports
+
+# software
+- Raspberry Pi OS (64-bit) Trixie
