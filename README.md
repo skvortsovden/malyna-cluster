@@ -2,16 +2,16 @@
 
 This is a logbook of my home lab cluster setup.
 
-# hardware
+## hardware
 
 - 3x Raspberry Pi 4B (2x 4GB RAM, 1x 8GB RAM)
 - 3x 32GB microSD card
 - 1x usb hub anker with 6 usb ports
 
-# software
+## software
 - Raspberry Pi OS (64-bit) a port of Debian Trixie with the Raspberry Pi Desktop
 
-# configuration
+## configuration
 
 - node1:
   - hostname: malyna
@@ -22,3 +22,10 @@ This is a logbook of my home lab cluster setup.
 - node3:
   - hostname: lohyna
   - role: worker
+
+## logbook records
+
+## 2026-03-08
+
+- ssh key-based authentication configured on all nodes
+- ssh password authentication disabled on all nodes
