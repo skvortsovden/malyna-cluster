@@ -9,7 +9,7 @@ This is a logbook of my home lab cluster setup.
 - 1x usb hub anker with 6 usb ports
 
 ## software
-- Raspberry Pi OS (64-bit) a port of Debian Trixie with the Raspberry Pi Desktop
+- Raspberry Pi OS Lite (64-bit) a port of Debian Trixie with the Raspberry Pi with no desktop environment
 
 ## configuration
 
