@@ -1,4 +1,4 @@
-# malyna-cluster
+# malyna-cluster-logbook
 
 This is a logbook of my home lab cluster setup.
 
