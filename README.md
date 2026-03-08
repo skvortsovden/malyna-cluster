@@ -10,3 +10,15 @@ This is my home lab cluster build with 3 rapberry pi 4B.
 
 # software
 - Raspberry Pi OS (64-bit) a port of Debian Trixie with the Raspberry Pi Desktop
+
+# configuration
+
+- node1:
+  - hostname: malyna
+  - role: master
+- node2:
+  - hostname: kalyna
+  - role: worker
+- node3:
+  - hostname: lohyna
+  - role: worker
