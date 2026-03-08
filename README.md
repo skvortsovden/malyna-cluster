@@ -2,6 +2,8 @@
 
 This is a logbook of my home lab cluster setup.
 
+![cluster-photo.jpg](cluster-photo.jpg)
+
 ## hardware
 
 - 3x Raspberry Pi 4B (2x 4GB RAM, 1x 8GB RAM)
