@@ -29,3 +29,5 @@ This is a logbook of my home lab cluster setup.
 
 - ssh key-based authentication configured on all nodes
 - ssh password authentication disabled on all nodes
+- catch-22: do not hardcode dynamic IP addresses in the SSH configuration
+  - details: locked myself out of all nodes by hardcoding dynamic IP addresses in the ListenAddress in SSH configuration, when restarted the nodes got different IP addresses assigned by the router DHCP, which caused me to lose SSH access to all nodes. I got back in by re-installing the OS on SD cards and re-configuring SSH access
