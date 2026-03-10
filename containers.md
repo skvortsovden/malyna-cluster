@@ -74,3 +74,5 @@ copy get.py get.py
 run python get.py
 ```
 
+> rule of thumb: put the layers that are less likely to change earlier in the Dockerfile to maximize cache reuse.
+
