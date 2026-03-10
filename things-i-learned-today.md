@@ -1,5 +1,6 @@
 ## 2026-03-10
 - [how layers caching order affects cache invalidation in container builds](containers.md#layers-caching-order-and-cache-invalidation)
+- [how to use multi-stage builds to optimize container images](containers.md#build-stage-and-runtime-stage-aka-multi-stage-builds)
 
 ## 2026-03-08
 
