@@ -32,6 +32,7 @@ This is a logbook of my home lab cluster setup.
 - installed [Grafana Alloy](https://grafana.com/docs/alloy/latest/set-up/install/linux/) on each node to monitor system metrics and visualize them in Grafana dashboards
   - grafana alloy is running as a **systemd service** on each node, collecting metrics and sending them to the Grafana
   - grafana alloy hostname and other default configuration added in /etc/alloy/config.alloy
+- re-installed OS from scratch for `kalyna` because it was unreachable, no ip assigned by DHCP on router
 
 ### 2026-03-08
 
