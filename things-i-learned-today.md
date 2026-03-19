@@ -1,3 +1,7 @@
+## 2026-03-19
+- [how to make bootable USB drive with Debian image using `dd` tool](storage.md#make-bootable-usb-with-debian-image)
+- [how to connect USB drive to the Pi and list files on it](storage.md#connect-usb-drive-to-the-pi-and-list-files-on-it)
+
 ## 2026-03-10
 - [how layers caching order affects cache invalidation in container builds](containers.md#layers-caching-order-and-cache-invalidation)
 - [how to use multi-stage builds to optimize container images](containers.md#build-stage-and-runtime-stage-aka-multi-stage-builds)
