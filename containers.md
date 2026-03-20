@@ -115,3 +115,25 @@ devops@malyna:~ $ podman images
 REPOSITORY                          TAG            IMAGE ID      CREATED             SIZE
 localhost/mstage                    latest         e2c86272fdc0  About a minute ago  58.7 MB
 ```
+
+## enable a listening service for API access to Podman commands when systemd is not an option
+
+Podman is [deamonless](#deamonless-architecture). When installing and running podman on linux machine it is configured as [systemd socket-activated service](#inactive-podman-systemd-service).
+
+When systemd is not an option - for example when podman is running inside a container and some other tool needs to access the podman API. 
+
+In this case, the podman API service can be run manually with the following command:
+
+```bash
+podman --log-level=info system service --time=0 &
+```
+
+this will create a socket file at `/run/podman/podman.sock` that can be used to access the podman API. The `--time=0` option tells the service to run indefinitely until it is manually stopped. The `&` at the end of the command runs the service in the background, allowing you to continue using the terminal for other commands while the podman API service is running.
+
+```
+INFO[0000] podman filtering at log level info
+INFO[0000] Using sqlite as database backend
+INFO[0000] Setting parallel job count to 13
+INFO[0000] API service listening on "/run/user/1000/podman/podman.sock". URI: "unix:///run/user/1000/podman/podman.sock"
+```
+
