@@ -1,6 +1,7 @@
 ## 2026-03-20
 
 - [how to enable podman API service when systemd is not an option](containers.md#enable-a-listening-service-for-api-access-to-podman-commands-when-systemd-is-not-an-option)
+- [how to connect k3s to gitlab as a runner using Helm](gitlab.md#add-k3s-cluster-to-gitlab-as-runner)
 
 ## 2026-03-19
 
