@@ -62,7 +62,7 @@ ERROR: Job failed: prepare environment: waiting for pod running: pulling image "
 
 to fix this issue I need to explicitly specify the helper image for ARM64 architecture in the helm `values.yaml` file:
 
-```
+```yaml
 runners:
   config: |
     [[runners]]
